@@ -1,0 +1,39 @@
+.developer-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  width: 240px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+  text-align: center;
+  transition: transform 0.3s ease-in-out; 
+  border: 1px solid #eee; 
+}
+
+.developer-card:hover {
+  transform: translateY(-5px); 
+}
+
+.developer-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  margin-bottom: 15px;
+  border: 3px solid #0000FF; 
+}
+
+.developer-card h3 {
+  font-size: 1.4em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: inherit; 
+}
+
+.links a:hover {
+    opacity: 0.8; 
+}
